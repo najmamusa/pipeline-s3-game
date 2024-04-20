@@ -1,9 +1,9 @@
-# Continuous Deployment using AWS Code Pipeline and S3
+# Building a Game with Continious Deployment via AWS CodePipeline and S3 hosting.
 
-This repo contains the code files used in this [YouTube video](https://youtu.be/biYVW1TMYAU).
+The content of this repo and the following project takes inspiration from the following [YouTube video](https://youtu.be/biYVW1TMYAU).
 
-## TL;DR
-Code for a game is hosted in GitHub.  We create an S3 bucket for static website hosting, then create a continuous deployment pipeline (using AWS Code Pipeline) to automatically deploy the code whenever changes are made.
+## Description
+In this project, we go through the steps of uploading code for a meme game onto a github repository of your own, hosting this meme game through an S3 bucket which enables static website hosting. We then create a continuous deployment mechanism through the employment of AWS Code Pipeline which enables automatic deployments of any changes made to the code in the GitHub repo.
 
 ## The Game
 A simple memory matching game.  The user clicks two cards (images of memes) to try to match them.  If there's a match, the cards disappear from the board.  If there's no match, the cards are flipped back to their blank side so the user can try again.
