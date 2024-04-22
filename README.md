@@ -28,7 +28,7 @@ To get the code for this project, you can easily fork this repo or:
 - You can drag and drop the code files into the repository or push the code to GitHub via Visual Studio Code/Terminal for example.
 
 # Step 2: Create and configure the S3 Bucket
-Steps for this step can be found in my previous project repository [here](https://github.com/najmamusa/AWS-S3StaticWebsite/blob/main/README.md). Follow the steps in the readME up until the 'Edit Bucket Policy' section, where you should have your endpoint address ready.
+Steps for this step can be found in my previous project repository [here](https://github.com/najmamusa/AWS-S3StaticWebsite/blob/main/README.md). Follow the steps in the readME up until the 'Edit Bucket Policy' section, where you should have your endpoint address ready. **Name your Bucket meme-pipeline for this project**.
 
 # Step 3: Set up the Code Pipeline
 - Navigate to the Code Pipeline page by search in the main console.
